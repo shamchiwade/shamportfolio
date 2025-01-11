@@ -466,8 +466,6 @@ span {
 .go-to-top:hover {
     background-color: #0056b3;
 }
-/* Responsive Design */
-
 /* For mobile devices (max-width: 768px) */
 @media (max-width: 768px) {
     .header {
@@ -557,6 +555,59 @@ span {
     }
     .footer p {
         font-size: 1.6rem;
+    }
+}
+
+/* For extra small devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .header {
+        padding: 1rem;
+    }
+    .logo {
+        font-size: 1.8rem;
+    }
+    .navbar a {
+        font-size: 1.3rem;
+        margin: 0.5rem 0;
+    }
+    .home-img img {
+        width: 35vh;
+    }
+    .home-content h1 {
+        font-size: 3.2rem;
+    }
+    .home-content h3,
+    .home-content p {
+        font-size: 1.4rem;
+    }
+    .about-content h2 {
+        font-size: 3.5rem;
+    }
+    .about-content h3,
+    .about-content p {
+        font-size: 1.3rem;
+    }
+    .circle {
+        width: 80px;
+        height: 80px;
+    }
+    .Skill h2 {
+        font-size: 2.8rem;
+    }
+    .project h2 {
+        font-size: 2.8rem;
+    }
+    .card-img-top {
+        height: 120px;
+    }
+    .contact h1 {
+        font-size: 2.8rem;
+    }
+    .contact p {
+        font-size: 1.3rem;
+    }
+    .footer p {
+        font-size: 1.4rem;
     }
 }
 
